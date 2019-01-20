@@ -1,0 +1,5 @@
+<div>
+  <ul *ngFor="let customer of customers">
+    <li class='highlight' appHighlight="skyblue">{{ customer.customerName | pwcTitleCase }}</li>
+  </ul>
+</div>
